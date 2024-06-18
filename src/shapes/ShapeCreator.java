@@ -5,6 +5,19 @@ package shapes;
  */
 public class ShapeCreator {
     /**
+     * Prints a square made of asterisks.
+     * 
+     * @param height The total height of the square to be created
+     */
+    public void makeSquare(int height) {
+        // Handles creating of the square shape.
+        for (int i = 0; i < height; i++) {
+            printChar('*', height);                                           // Prints asterisks in each row
+            System.out.println();                                                // Changes line to print next row
+        }
+    }
+
+    /**
      * Prints a diamond shape made of asterisks.
      * 
      * @param height The total height of the diamond to be created.
