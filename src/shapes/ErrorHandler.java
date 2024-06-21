@@ -4,7 +4,9 @@ package shapes;
  * Provides methods to handle errors in the application.
  */
 public class ErrorHandler {
-    private String shape;
+    private String shape;   // The shape to be created
+    private int height;     // The height of the shape
+
 
     /**
      * Prints an error message in red color to the standard error stream.
@@ -15,26 +17,62 @@ public class ErrorHandler {
         System.err.println("\u001B[31m" + error + "\u001B[0m");
     }
 
+
+    /**
+     * Validates the provided shape for creating the shape.
+     * Throws an {@link shapes.InvalidShapeException} if the shape is not valid.
+     * 
+     * @param shape The shape to be validated.
+     * @throws InvalidShapeException If the shape is invalid.
+     */
     public void validateShape(String shape) throws InvalidShapeException{
         this.shape = shape;
 
-        if (!(shape.equals("diamond") || shape.equals("square"))) {
+        if (!isValidShape()) {
             throw new InvalidShapeException();
         }
     }
 
+
     /**
-     * Checks if the provided height is valid for creating the diamond shape.
-     * Throws InvalidSizeException if the height is not a positive odd number.
+     * Validates the provided height for creating the shape.
+     * Throws an {@link shapes.InvalidHeightException} if the height is not valid.
      * 
-     * @param height The height of the diamond shape.
-     * @throws InvalidSizeException If the height is even or negative.
+     * @param height The height of the shape.
+     * @throws InvalidHeightException If the height is invalid.
      */
     public void validateHeight(int height) throws InvalidHeightException {
-        if (shape.equals("diamond") && (height % 2 == 0 || height < 0)) {
+        this.height = height;
+
+        if (!isValidHeight()) {
             throw new InvalidHeightException();
-        } else if (shape.equals("square") && height <= 0) {
-            throw new InvalidHeightException();
+        }
+    }
+
+
+    /**
+     * Checks if the shape is either "diamond" or "square".
+     * 
+     * @return true if the shape is valid for creation, false otherwise.
+     */
+    private boolean isValidShape(){
+        return shape.equals("diamond") || shape.equals("square");
+    }
+
+
+    /**
+     * Checks if the height meets specific criteria for different shapes.
+     * 
+     * @return true if the height is valid for the shape, false otherwise.
+     */
+    private boolean isValidHeight(){
+        switch (shape) {
+            case "diamond":
+                return !(height % 2 == 0 || height < 0);
+            case "square":
+                return !(height <= 0);
+            default:
+                return true;
         }
     }
 }
