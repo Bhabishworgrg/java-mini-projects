@@ -5,7 +5,8 @@ This repository contains a collection of small Java projects showcasing various 
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Projects](#projects)
-  - [Project 1: Shape Drawer](#project-1-shape-drawer)
+  - [Project 1: Hello World](#project-1-hello-world)
+  - [Project 2: Shape Drawer](#project-2-shape-drawer)
 - [Prerequisites](#prerequisites)
 - [Running the Projects](#running-the-projects)
 - [License](#license)
@@ -20,7 +21,10 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
 
 
 ## Projects
-### Project 1: Shape Drawer
+### Project 1: Hello World
+  This is a simple "Hello, World!" program that demonstrates the use of different kinds of **print** statements.
+
+### Project 2: Shape Drawer
   A console-based application that prompts the user for a shape and height, then draws that shape with asterisks. This project demonstrates the use of **for loops**.
   #### Allowed Shapes:
   1. **Diamond**:
