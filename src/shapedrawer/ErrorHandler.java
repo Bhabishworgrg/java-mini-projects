@@ -1,4 +1,4 @@
-package shapes;
+package shapedrawer;
 
 /**
  * Provides methods to handle errors in the application.
@@ -20,7 +20,7 @@ public class ErrorHandler {
 
     /**
      * Validates the provided shape for creating the shape.
-     * Throws an {@link shapes.InvalidShapeException} if the shape is not valid.
+     * Throws an {@link shapedrawer.InvalidShapeException} if the shape is not valid.
      * 
      * @param shape The shape to be validated.
      * @throws InvalidShapeException If the shape is invalid.
@@ -36,7 +36,7 @@ public class ErrorHandler {
 
     /**
      * Validates the provided height for creating the shape.
-     * Throws an {@link shapes.InvalidHeightException} if the height is not valid.
+     * Throws an {@link shapedrawer.InvalidHeightException} if the height is not valid.
      * 
      * @param height The height of the shape.
      * @throws InvalidHeightException If the height is invalid.
