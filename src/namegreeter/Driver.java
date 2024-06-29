@@ -5,7 +5,7 @@ package namegreeter;
  */
 public class Driver {
     /**
-     * Main method that declares two String variables and prints out a welcome message.
+     * Main method that gets user's name and welcomes them.
      * 
      * @param args
      */
