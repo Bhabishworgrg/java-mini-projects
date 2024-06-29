@@ -7,7 +7,7 @@ public class Driver {
     /**
      * Main method that declares two String variables and prints out a welcome message.
      * 
-     * @param args
+     * @param args The array of command-line arguments(unused).
      */
     public static void main(String[] args) {
         String text1= "Mini";

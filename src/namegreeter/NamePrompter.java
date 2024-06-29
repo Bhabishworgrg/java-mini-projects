@@ -3,13 +3,13 @@ package namegreeter;
 import java.util.Scanner;                           // Imports Scanner class.
 
 /**
- * Provides a method to get name from the user
+ * Provides a method to get name from the user.
  */
 public class NamePrompter {
     /**
-     * Prompts for name from the user and returns it
+     * Prompts for name from the user and returns it.
      * 
-     * @return The user's name
+     * @return The user's name.
      */
     public String getName() {
         Scanner scanner = new Scanner(System.in);   // Creates a Scanner object.

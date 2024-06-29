@@ -7,7 +7,7 @@ public class Driver {
     /**
      * Main method that gets user's name and welcomes them.
      * 
-     * @param args
+     * @param args The array of command-line arguments(unused).
      */
     public static void main(String[] args) {
         NamePrompter namePrompter = new NamePrompter();

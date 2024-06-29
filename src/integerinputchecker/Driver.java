@@ -10,7 +10,7 @@ public class Driver {
     /**
      * Main method that checks for InputMismatchException to determine whether the input is integer or not.
      * 
-     * @param args
+     * @param args The array of command-line arguments(unused).
      */
     public static void main(String[] args) {
         Printer printer = new Printer();
