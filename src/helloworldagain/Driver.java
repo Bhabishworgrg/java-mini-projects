@@ -10,7 +10,7 @@ public class Driver {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(getMessage());    // Prints the string returned from 'getMessage()'
+        System.out.println(getMessage());    // Prints the string returned from 'getMessage()'.
     }    
 
     /**

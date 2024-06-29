@@ -10,7 +10,7 @@ public class Driver {
      * @param args
      */
     public static void main(String[] args) {
-        MessageProvider messageProvider = new MessageProvider();    // Creates an instance of 'MessageProvider'
+        MessageProvider messageProvider = new MessageProvider();    // Creates an instance of 'MessageProvider'.
         System.out.println(messageProvider.getMessage());
     }
 }
