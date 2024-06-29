@@ -6,7 +6,10 @@ This repository contains a collection of small Java projects showcasing various 
 - [Getting Started](#getting-started)
 - [Projects](#projects)
   - [Project 1: Hello World](#project-1-hello-world)
-  - [Project 2: Shape Drawer](#project-2-shape-drawer)
+  - [Project 2: Hello World Again](#project-2-hello-world-again)
+  - [Project 3: Hello World Yet Again](#project-3-hello-world-yet-again)
+  - [Project 4: Name Greeter](#project-4-name-greeter)
+  - [Project X: Shape Drawer](#project-X-shape-drawer)
 - [Prerequisites](#prerequisites)
 - [Running the Projects](#running-the-projects)
 - [License](#license)
@@ -24,7 +27,22 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
 ### Project 1: Hello World
   This is a simple "Hello, World!" program that demonstrates the use of different kinds of **print** statements.
 
-### Project 2: Shape Drawer
+### Project 2: Hello World Again
+  A "Hello, World!" program again but it demonstrates how to define and use **methods**.
+
+### Project 3: Hello World Yet Again
+  A "Hello, World!" program yet again but it demonstrates how to separate functionality into different **classes** and create an **object**.
+  #### Files:
+  - **Driver.java** - The main class that prints the message.
+  - **MessageProvider.java** - A class that provides message to print.
+
+### Project 4: Name Greeter
+  A program that prompts the user for their name and greets them. This project demonstrates how to **import** classes and take **user input**.
+  #### Files:
+  - **Driver.java** - The main class that greets the user.
+  - **NamePrompter.java** - A class that handles prompting and storing of the name.
+
+### Project X: Shape Drawer
   A console-based application that prompts the user for a shape and height, then draws that shape with asterisks. This project demonstrates the use of **for loops**.
   #### Allowed Shapes:
   1. **Diamond**:
