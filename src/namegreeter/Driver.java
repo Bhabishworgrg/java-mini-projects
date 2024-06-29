@@ -6,6 +6,8 @@ package namegreeter;
 public class Driver {
     /**
      * Main method that declares two String variables and prints out a welcome message.
+     * 
+     * @param args
      */
     public static void main(String[] args) {
         NamePrompter namePrompter = new NamePrompter();
