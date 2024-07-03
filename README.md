@@ -9,7 +9,7 @@ This repository contains a collection of small Java projects showcasing various 
   - [Project 2: Hello World Again](#project-2-hello-world-again)
   - [Project 3: Hello World Yet Again](#project-3-hello-world-yet-again)
   - [Project 4: Name Greeter](#project-4-name-greeter)
-  - [Project X: Shape Drawer](#project-X-shape-drawer)
+  - [Project 5: Shape Drawer](#project-5-shape-drawer)
 - [Prerequisites](#prerequisites)
 - [Running the Projects](#running-the-projects)
 - [License](#license)
@@ -42,7 +42,7 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
   - **Driver.java** - The main class that greets the user.
   - **NamePrompter.java** - A class that handles prompting and storing of the name.
 
-### Project X: Shape Drawer
+### Project 5: Shape Drawer
   A console-based application that prompts the user for a shape and height, then draws that shape with asterisks. This project demonstrates the use of **for loops**.
   #### Allowed Shapes:
   1. **Diamond**:
@@ -77,7 +77,7 @@ java shapedrawer.Driver
 **Note**: Driver class contains the main method and thus is the class to run for every project.
 
 ## License
-This repository is licensed under the MIT License. See the [LICENSE](https://github.com/Bhabishworgrg/java-mini-projects/blob/main/LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Get in Touch
 Feel free to reach out if you want to collaborate on a project, have a question, or just want to connect!
