@@ -9,7 +9,9 @@ This repository contains a collection of small Java projects showcasing various 
   - [Project 2: Hello World Again](#project-2-hello-world-again)
   - [Project 3: Hello World Yet Again](#project-3-hello-world-yet-again)
   - [Project 4: Name Greeter](#project-4-name-greeter)
-  - [Project 5: Shape Drawer](#project-5-shape-drawer)
+  - [Project 5: Integer Input Checker](#project-5-integer-input-checker)
+  - [Project 6: Integer Type Checker](#project-6-integer-type-checker)
+  - [Project 7: Shape Drawer](#project-7-shape-drawer)
 - [Prerequisites](#prerequisites)
 - [Running the Projects](#running-the-projects)
 - [License](#license)
@@ -25,24 +27,38 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
 
 ## Projects
 ### Project 1: Hello World
-  This is a simple "Hello, World!" program that demonstrates **variable initialization** and the use of different kinds of **print** statements.
+  This is a simple "Hello, World!" program that demonstrates `variable initialization` and the use of different kinds of `print` statements.
 
 ### Project 2: Hello World Again
-  A "Hello, World!" program again but it demonstrates how to define **methods** and call them.
+  A "Hello, World!" program again but it demonstrates how to define `methods` and call them.
 
 ### Project 3: Hello World Yet Again
-  A "Hello, World!" program yet again but it demonstrates how to separate functionality into different **classes** and create an **object**.
+  A "Hello, World!" program yet again but it demonstrates how to separate functionality into different `classes` and create an `object`.
   #### Files:
   - **Driver.java** - The main class that prints the message.
   - **MessageProvider.java** - A class that provides message to print.
 
 ### Project 4: Name Greeter
-  A program that prompts the user for their name and greets them. This project demonstrates how to **import** classes and take **user input**.
+  A program that prompts the user for their name and greets them. This project demonstrates how to `import` classes and take `input`.
   #### Files:
   - **Driver.java** - The main class that greets the user.
   - **NamePrompter.java** - A class that handles prompting and storing of the name.
 
-### Project 5: Shape Drawer
+### Project 5: Integer Input Checker
+  A program that prompts the user for an input and checks if it is an integer or not. This project demonstrates the concept of `Exception Handling`.
+  #### Files:
+  - **Driver.java** - The main class that checks if the input is integer or not.
+  - **Printer.java** - A class that handles printing of output.
+  - **Prompter.java** - A class that handles prompting of the input.
+
+### Project 6: Integer Type Checker
+  A program that prompts the user for an integer and checks if it is even, odd or zero. This project demonstrates the concept of `Exception Handling`.
+  #### Files:
+  - **Driver.java** - The main class that checks if the input is integer or not.
+  - **OutputPrinter.java** - A class that handles printing of output.
+  - **TypeChecker.java** - A class that handles prompting and checking of even and odd.
+
+### Project 7: Shape Drawer
   A console-based application that prompts the user for a shape and height, then draws that shape with asterisks. This project demonstrates the use of **for loops**.
   #### Allowed Shapes:
   1. **Diamond**:
