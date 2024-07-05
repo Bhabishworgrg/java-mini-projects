@@ -10,6 +10,7 @@ public class Driver {
      * @param args The array of command-line arguments(unused).
      */
     public static void main(String[] args) {
+        // Initializing variables
         String text1= "Mini";
         String text2 = "Projects";
 

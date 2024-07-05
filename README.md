@@ -25,10 +25,10 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
 
 ## Projects
 ### Project 1: Hello World
-  This is a simple "Hello, World!" program that demonstrates the use of different kinds of **print** statements.
+  This is a simple "Hello, World!" program that demonstrates **variable initialization** and the use of different kinds of **print** statements.
 
 ### Project 2: Hello World Again
-  A "Hello, World!" program again but it demonstrates how to define and use **methods**.
+  A "Hello, World!" program again but it demonstrates how to define **methods** and call them.
 
 ### Project 3: Hello World Yet Again
   A "Hello, World!" program yet again but it demonstrates how to separate functionality into different **classes** and create an **object**.
