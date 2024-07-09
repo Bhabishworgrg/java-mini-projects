@@ -20,7 +20,7 @@ This repository contains a collection of small Java projects showcasing various 
 
 ## Getting Started
 To get started with these mini projects, clone the repository to your local machine using the following command:
-```
+```bash
 git clone https://github.com/Bhabishworgrg/java-mini-projects.git
 ```
 
@@ -79,15 +79,15 @@ To run these projects, you need to have the [Java Development Kit (JDK)](https:/
 
 ## Running the Projects
 - Navigate to the source directory of the project:
-```
+```bash
 cd java-mini-projects/src
 ```
 - Compile the Java files using the javac command. For example, to run the *Shape Drawer* project:
-```
+```bash
 javac shapedrawer/*.java
 ```
 - Run the compiled Java program using the java command:
-```
+```bash
 java shapedrawer.Driver
 ```
 **Note**: Driver class contains the main method and thus is the class to run for every project.
