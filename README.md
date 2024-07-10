@@ -11,7 +11,8 @@ This repository contains a collection of small Java projects showcasing various 
   - [Project 4: Name Greeter](#project-4-name-greeter)
   - [Project 5: Integer Input Checker](#project-5-integer-input-checker)
   - [Project 6: Integer Type Checker](#project-6-integer-type-checker)
-  - [Project 7: Shape Drawer](#project-7-shape-drawer)
+  - [Project 7: Quadratic Equation Solver](#project-7-quadratic-equation-solver)
+  - [Project 8: Shape Drawer](#project-8-shape-drawer)
 - [Prerequisites](#prerequisites)
 - [Running the Projects](#running-the-projects)
 - [License](#license)
@@ -52,13 +53,20 @@ git clone https://github.com/Bhabishworgrg/java-mini-projects.git
   - **Prompter.java** - A class that handles prompting of the input.
 
 ### Project 6: Integer Type Checker
-  A program that prompts the user for an integer and checks if it is even, odd or zero. This project demonstrates the concept of `Exception Handling`.
+  A program that prompts the user for an integer and checks if it is positive, negative or zero. This project demonstrates `if` statements and `relational operators`.
   #### Files:
   - **Driver.java** - The main class that checks if the input is integer or not.
   - **OutputPrinter.java** - A class that handles printing of output.
-  - **TypeChecker.java** - A class that handles prompting and checking of even and odd.
+  - **TypeChecker.java** - A class that handles prompting and checking of positive and negative.
 
-### Project 7: Shape Drawer
+### Project 7: Quadratic Equation Solver
+  A program that prompts the user for the coefficients of a quadratic equation and prints its roots. This project demonstrates the use of `arithmetic operators` and `arrays`.
+  #### Files:
+  - **Driver.java** - The main class that prints the roots of the equation.
+  - **UserInterface.java** - A class that handles the interface that user interacts with.
+  - **Solver.java** - A class that handles calculations to get the roots.
+
+### Project 8: Shape Drawer
   A console-based application that prompts the user for a shape and height, then draws that shape with asterisks. This project demonstrates the use of **for loops**.
   #### Allowed Shapes:
   1. **Diamond**:
